@@ -37,8 +37,7 @@ def PolygonArea(lstPnts):
         
     for i in range(len(lstPnts)-1):
         fltArea += lstPnts[i][0] * lstPnts[i + 1][1] - lstPnts[i + 1][0] * lstPnts[i][1]
-        print i,fltArea
-      
+ 
     fltArea *= 0.5
         
     # Return the signed area
